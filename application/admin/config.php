@@ -15,7 +15,7 @@ return [
     // +----------------------------------------------------------------------
     
     'template'               => [
-        'view_suffix'  => 'cc',
+        'view_suffix'  => 'html',
     ],
     'view_replace_str'  =>  [
         '__PUBLIC__'=>'/public/',

@@ -1,14 +1,12 @@
 <?php
 namespace app\admin\controller;
 
-
-use app\admin\controller\Base;
-
-class Index extends Base
+use think\Controller;
+class Base extends Controller
 {
     public function index()
     {
-        return $this->view->fetch();
+        return view();
     }
 
 
